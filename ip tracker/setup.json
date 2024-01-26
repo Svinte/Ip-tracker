@@ -2,5 +2,6 @@
     "port": 4400,
     "domain": "127.0.0.1",
     "no_console": false,
-    "no_debug": false
+    "no_debug": false,
+    "return_file": "index.html"
 }
