@@ -3,5 +3,7 @@
     "domain": "127.0.0.1",
     "no_console": false,
     "no_debug": false,
-    "return_file": "index.html"
+    "return_file": "index.html",
+    "public": true,
+    "page_type": "text_html"
 }
