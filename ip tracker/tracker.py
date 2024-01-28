@@ -1,5 +1,4 @@
 # Import libraries
-from flask import Flask, request
 from wsgiref.simple_server import make_server
 from datetime import datetime
 import json
@@ -28,6 +27,7 @@ page_type = arguments.page_type or json_data["page_type"] or "text/html"
 
 # Flask local server
 if not public:
+    from flask import Flask, request
     # Flask app
     server = Flask(__name__)
 
